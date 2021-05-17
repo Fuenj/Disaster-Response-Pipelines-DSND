@@ -51,7 +51,7 @@ The following are the main files available in this repository:
 # 4. Results
 This section shows the main results in the application. Below are a few screenshots of the web app:
 
-![image](https://user-images.githubusercontent.com/73600826/118324431-e3925e00-b4b6-11eb-8a22-6a32b4927c55.png)
+![image](https://user-images.githubusercontent.com/73600826/118540569-8d672a00-b705-11eb-88af-80b07eb9f520.png)
 
 ![image](https://user-images.githubusercontent.com/73600826/118324587-18061a00-b4b7-11eb-9137-3dbbeb0c4b00.png)
 
