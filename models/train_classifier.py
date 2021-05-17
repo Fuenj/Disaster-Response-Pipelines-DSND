@@ -4,6 +4,7 @@ from sqlalchemy import create_engine
 import nltk
 nltk.download(['punkt', 'wordnet', 'averaged_perceptron_tagger'])
 
+import sys
 import re
 import numpy as np
 import pandas as pd
