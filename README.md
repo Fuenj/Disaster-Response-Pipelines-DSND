@@ -14,7 +14,7 @@ The aim of this project is to create a machine learning pipeline to categorize t
 The Project is divided in the following Sections:
 
 #### 1. Data processing: 
-This is a ata cleaning pipeline that loads the messages and categories datasets, merges the two datasets, cleans the data and save it in a SQLite database.
+This is a data cleaning pipeline that loads the messages and categories datasets, merges the two datasets, cleans the data and save it in a SQLite database.
 #### 2. ML Pipeline
 This is a machine learning pipeline that loads data from the SQLite database, splits the dataset into training and test sets, builds a text processing and machine learning pipeline, trains and tunes a model using GridSearchCV, outputs results on the test set and exports the final model as a pickle file.
 #### 3. Web Application
