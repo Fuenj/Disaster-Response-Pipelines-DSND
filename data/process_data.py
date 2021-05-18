@@ -40,6 +40,8 @@ def clean_data(df):
     for column in categories:
         categories[column] = categories[column].str[-1]
         categories[column] = categories[column].astype(np.int)
+    # replace values
+    categories.related.replace(2,1,inplace=True)
     # drop the original categories column from `df`
     df = df.drop('categories',axis=1)
     # concatenate the original dataframe with the new `categories` dataframe
