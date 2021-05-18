@@ -25,11 +25,36 @@ The following are the main files available in this repository:
 
 ` ETL Pipeline Preparation.ipynb`  - a notebook which contains the first part of the data pipeline namely,Extract, Transform, and Load process. Here, you will read the dataset, clean the data with pandas, and then store it in a SQLite database. 
 
-`process_data.py` - This file include the cleaning code in the ETL script
+`process_data.py` - This file include the cleaning code in the ETL script.
 
 ` ML Pipeline Preparation.ipynb` - a notebook which contains the machine learning portion, namely, split the data into a training set and a test set, Then, create a machine learning pipeline that uses NLTK, as well as scikit-learn's Pipeline and GridSearchCV to output a final model that uses the message column to predict classifications for 36 categories (multi-output classification). Finally, it export the model to a pickle file. 
 
 `train_classifier.py` - Include the final machine learning code.
+
+`run.py` - Flask file that runs app
+
+`template files`- Templates for these scripts are provided in this file, namely, the main page of the web app and the classification result page.
+
+Here's the file structure of the project:
+
+- app
+  - template
+     * master.html  # main page of web app
+     * go.html  # classification result page of web app
+
+  - run.py  # Flask file that runs app
+
+- data
+  - disaster_categories.csv  # data to process 
+  - disaster_messages.csv  # data to process
+  - process_data.py  
+  - InsertDatabaseName.db   # database to save clean data to
+
+- models
+  - train_classifier.py
+  - classifier.pkl  # saved model 
+
+- README.md
 
 # 3. Instructions
 1)- Run the following commands to set up your database and model:
